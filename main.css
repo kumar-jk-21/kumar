@@ -1,0 +1,539 @@
+    
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.continer
+{
+    width: 96%;
+    height: 100%;
+    margin-left: 40px;
+    overflow: hidden;
+    background-image: url("artcity.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.top
+{
+    width: 100%;
+    height: 70px;
+    padding: 15px;
+    padding-top: 30px;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.top1a
+{
+    width:100px ;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-top: 2px solid blue;
+    border-left: 2px solid blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.top1
+{
+    width: 40%;
+    height:60px;
+}
+.top1 a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 800;
+    border: none;
+    color: black;
+}
+/* ======================================================================= */
+.top2
+{
+    display: inline-block;
+    justify-content: center;
+    padding: 5px;
+    width: 750px;
+    height: 50px;
+    border-radius: 30px;
+}
+.top2 ul
+{
+    list-style-type: none;
+    display: flex;
+}
+.top2 ul li
+{
+    display: block;
+    padding: 10px;
+    margin: 5px;
+}
+.top2 ul li:hover
+{
+   box-shadow: 0 0 10px black;
+   border-radius: 20px;
+}
+.top2 ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.top2 ul  button
+{
+    width: 160px;
+    margin-left: 50px;
+    margin-top: 3px;
+    height: 45px;
+    margin-top: -px;
+    background-color: rgb(50, 36, 63);
+    border-radius: 30px;
+}
+.top2 ul  button a
+{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* ============================================================================= */
+.topend
+{
+    width: 100%;
+    height: 350px;
+    padding: 20px;
+    padding-top: 80px;
+    padding-left: 80px;
+    display: block;
+}
+.topend h1
+{
+    font-size: 60px;
+    font-weight: bold;
+}
+.topend h3
+{
+  font-size: 40px;
+  padding-top: 10px;
+  font-weight: 800;
+}
+.topend h4
+{
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+/* ============================================================================================================= */
+.page2
+{
+    width: 100%;
+    height: 500px;
+    
+}
+.page2left
+{
+    width: 50%;
+    height: 500px;
+    padding: 80px;
+    padding-top: 110px;
+}
+.page2left h1
+{
+    font-weight:bold;
+    font-size: 50px;
+}
+.page2left h4
+{
+    padding-top: 20px;
+}
+.page2left h3
+{
+    padding-top: 27px;
+}
+.pagelefta
+{
+   margin-top: 20px;
+   margin-left: 20px;
+   border: none;
+   border-left: 2px solid red;
+   padding-bottom: 20px;
+   padding-left: 20px;
+}
+.pagelefta p
+{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight:600 ;
+}
+/* ============================================================================================= */
+.page3
+{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding: 20px;
+    margin-top: 100px;
+}
+.page3left
+{
+    width: 30%;
+    padding: 40px;
+}
+.page3left h1
+{
+    padding-left: 40px;
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 60px;
+}
+.page3left p
+{
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+.page3left button 
+{
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: blue;
+    border: none;
+}
+.page3left button  a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+}
+.page3right
+{
+    width: 60%;
+    height: 600px;
+    display: grid;
+    grid-template-areas: 
+    'a b'
+    'c d';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 50px;
+    padding-right: 80px;
+}
+.page3right img
+{
+    width: 30px;
+    height: 30px;
+}
+.page3right h3
+{
+    padding-top: 10px;
+}
+.page3right p
+{
+    padding-top: 10px;
+}
+.page3righta
+{
+  grid-area: a;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 30px;
+}
+.page3rightb
+{
+    grid-area: b;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 30px;
+}
+.page3rightc
+{
+ grid-area: c; 
+ background-color: aliceblue;
+ border-radius: 10px;
+ padding: 30px;
+}
+.page3rightd
+{
+ grid-area: d;  
+ background-color: aliceblue;
+ border-radius: 10px;
+ padding: 30px;
+}
+/* ======================================================================================================== */
+.page4
+{
+    padding: 40px;
+    margin-top: 50px;
+}
+.page4continer
+{
+    width: 900px;
+    height: 900px;
+    background:linear-gradient(#adbbdf,#ffffff,#fff);
+    border-radius: 655px;
+    margin-top: 70px;
+   margin-left: 150px;
+}
+.page4continer h1
+{
+    padding: 20px;
+    padding-left: 320px;
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.page4continer h4
+{
+    padding-left: 150px;
+    font-weight: 900;
+    font-size: 30px;
+}
+.page4round
+{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.page4
+{
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+}
+
+.row
+{
+    display: flex;
+    box-shadow: 0px 0px 25px 50px white;
+    margin-left: -30px;
+    width: 95%;
+    padding-left: 20px;
+   
+}
+.imgarea
+{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    padding-left: 50px;
+    transition: .5s ease; 
+}
+.imgarea  img
+{
+    width: 250px;
+    height: 450px;
+    border-radius: 20px;
+    transition: 1s ease;
+    box-shadow: 0px 0px 50px 50px white;
+}
+.imgtext
+{
+    
+    overflow: hidden;
+    margin-top: -64px;
+    position: absolute;
+  width: 250px;
+  height: 40px; 
+  border-radius: 30px;
+}
+.imgtext button
+{
+    width: 90px;
+    height: 25px;
+    background-color: blueviolet;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: none;
+}
+.imgtext a
+{
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
+.imgtext h3
+{
+    padding-bottom: 20px;
+}
+.imgarea:hover .imgtext
+{
+    visibility: visible; 
+    margin-top: -280px;
+    width: 250px;
+    height: 300px;
+    transition: .5s;
+    background-color:#7f43;
+}
+/* =========================================================================================== */
+.page5
+{
+    width: 100%;
+    height: 1000px;
+    padding-top: 80px;
+}
+.page5continer
+{
+    text-align: center;
+    font-size: 30px;
+}
+.page5continer h4
+{
+    padding-top: 25px;
+}
+.page5top
+{
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 40px;
+    width:800px;
+    height:40px;
+    margin-left: 230px;
+    border-radius: 20px;
+}
+.page5top button
+{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 25px;
+    font-size: 900;
+   
+}
+.page5top button:hover
+{
+    box-shadow: 2px 4px 4px black;
+}
+table
+{
+    border: 1px solid black;
+    margin-top: 50px;
+    width: 230;
+    height: 400px;
+    margin-left: 100px;
+    text-align: center;
+    font-weight:bold;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+table img
+{
+    width: 15x;
+    height: 15px;
+}
+table th
+{
+    width: 210px;
+    height: 60px;
+    color: blue;
+}
+.tabledata
+{
+    padding-left: 100px;
+    font-size: 20px;
+}
+.tabledata2
+{
+    padding-left: 200px;
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+.button
+{
+    margin-top: 50px;
+    margin-left: 580px;
+}
+.button button
+{
+    background-color: blueviolet;
+    width: 180px;
+    height: 40px;
+    border: none;
+    font-weight: 900px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.button button a
+{
+    text-decoration: none;
+    color: white;
+}
+/* ==================================================================================== */
+.page6
+{
+    width: 100%;
+    height: 600px;
+}
+.page6 h1
+{
+    margin-top: 50px;
+    margin-left: 80px;
+    font-weight: bold;
+    font-size: 60px;
+}
+.page6 h3
+{
+    margin-left: 80px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.page6 h4
+{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+   margin-left: 80px;
+}
+
+.page6 p
+{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.page6btn
+{
+    margin-left:100px ;
+    margin-top: 30px;
+}
+.page6btn button
+{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: blueviolet;
+}
+.page6btn button a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+/* =========================================================== */
+.end{
+    display: flex;
+    width:100%;
+    height: 100px;
+    background-color: white;
+    padding-left: 60px;
+}
+.end p
+{
+    margin-top: 50px;
+}
+.end .p2
+{
+    margin-left: 740px;
+}
+/* =============================================================================== */
